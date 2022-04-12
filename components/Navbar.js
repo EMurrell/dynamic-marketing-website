@@ -128,7 +128,7 @@ export default function Nav() {
             <a
               key={id}
               href={to}
-              className="mx-8 my-8 text-lg font-normal transition duration-300 ease-in-out transform hover:scale-150 lg:mx-12 9 md:text-xl "
+              className="mx-8 my-8 text-lg font-normal transition duration-300 ease-in-out transform hover:scale-150 lg:mx-12 9 md:text-xl hover:text-highlight1"
             >
               {name}
             </a>

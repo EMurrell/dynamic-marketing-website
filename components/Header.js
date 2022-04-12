@@ -18,10 +18,10 @@ export default function Header() {
       </FadeIn>
       <DelayedFadeIn>
         <div className="flex flex-row justify-center mx-auto mb-40">
-          <button className="py-3 mr-2 text-lg font-semibold text-white border-2 rounded shadow-xl w-36 bg-neutral-900 border-neutral-900 shadow-neutral-900/50 md:text-xl lg:py-4 hover:bg-transparent hover:text-neutral-900">
+          <button className="py-3 mr-2 text-lg font-semibold text-white border-2 rounded shadow-xl w-36 bg-highlight1 border-highlight1 shadow-neutral-900/50 md:text-xl lg:py-4 hover:bg-transparent hover:text-highlight1">
             Learn More
           </button>
-          <button className="py-3 ml-2 text-lg font-semibold bg-transparent border-2 rounded shadow-xl w-36 text-neutral-900 border-neutral-900 shadow-neutral-900/50 md:text-xl lg:py-4 hover:bg-neutral-900 hover:text-white">
+          <button className="py-3 ml-2 text-lg font-semibold bg-gray-200 border-2 rounded shadow-xl hover:text-white w-36 hover:bg-highlight2 border-highlight2 shadow-neutral-900/50 md:text-xl lg:py-4 text-highlight2">
             Contact Us
           </button>
         </div>

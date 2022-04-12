@@ -15,7 +15,7 @@ export default function Testimonials() {
               Testimonials:
             </h1>
           </FadeUp>
-          <div className="flex self-center w-24 border-t-2 border-neutral-100"></div>
+          <div className="flex self-center w-24 border-t-2 border-highlight1"></div>
           <FadeIn>
             <blockquote className="mt-8">
               <div className="max-w-3xl mx-auto font-sans text-xl leading-relaxed text-center text-white md:text-2xl ">

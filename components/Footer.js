@@ -23,20 +23,20 @@ export default function Contact() {
 
             <div className="flex flex-row mb-10">
               <a href="https://facebook.com/trailbridgeweb">
-                <Facebook className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-teal-500" />
+                <Facebook className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight1" />
               </a>
               <a href="https://twitter.com/trailbridgeweb">
-                <Twitter className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-teal-500" />
+                <Twitter className="w-8 h-8 mr-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight1" />
               </a>
               <a href="https://instagram.com/trailbridgeweb">
-                <Instagram className="w-8 h-8 cursor-pointer md:w-10 md:h-10 hover:text-teal-500" />
+                <Instagram className="w-8 h-8 cursor-pointer md:w-10 md:h-10 hover:text-highlight1" />
               </a>
             </div>
           </FadeRight>
         </div>
         <FadeIn>
           <div className="flex flex-col text-base lg:text-lg">
-            <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
+            <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max ">
               <h2 className="flex flex-row w-max">Business Hours:</h2>
               <p className=" text-neutral-400 font-body">Monday to Friday</p>
               <p className=" text-neutral-400 font-body">
@@ -44,7 +44,7 @@ export default function Contact() {
               </p>
             </div>
             <a href="mailto:hello@trailbridgeweb.com">
-              <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
+              <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max ">
                 <h2 className="flex flex-row w-max">
                   Email &nbsp;
                   <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />
@@ -55,7 +55,7 @@ export default function Contact() {
               </div>
             </a>
 
-            <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max hover:shadow-bottom">
+            <div className="flex flex-col mb-6 transition duration-300 ease-in-out transform cursor-pointer lg:mx-6 h-max w-max ">
               <h2 className="flex flex-row w-max">
                 Phone &nbsp;
                 <ArrowNarrowRightIcon className="w-4 h-4 mt-1 lg:h-5 md:h-5" />

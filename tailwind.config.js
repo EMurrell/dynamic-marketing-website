@@ -14,7 +14,8 @@ module.exports = {
         quote: "url('/mountain2.jpg')",
       },
       colors: {
-        highlight1: "#e74c32",
+        highlight1: "#e9322e",
+        highlight2: "#45433e",
       },
     },
   },

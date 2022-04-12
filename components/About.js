@@ -13,7 +13,7 @@ export default function About() {
         </h1>
       </FadeUp>
 
-      <div className="flex self-center w-24 pt-2 border-t-2 border-neutral-900"></div>
+      <div className="flex self-center w-24 pt-2 border-t-2 border-highlight1"></div>
       <FadeIn>
         <div className="flex flex-col justify-center py-6 text-xl text-center md:text-2xl lg:text-3xl">
           <p className="py-4">
@@ -31,7 +31,7 @@ export default function About() {
           </p>
         </div>
       </FadeIn>
-      <div className="flex flex-col justify-center px-6 py-4 mt-8 text-xl text-center text-white border-4 rounded shadow-lg border-neutral-900 bg-neutral-900 place-self-center md:text-xl lg:text-2xl shadow-black">
+      <div className="flex flex-col justify-center px-6 py-4 mt-8 text-xl text-center text-white border-4 rounded shadow-lg border-highlight1 bg-highlight1 place-self-center md:text-xl lg:text-2xl shadow-black">
         <FadeUp>
           <h2>100% Quality Guarantee</h2>
         </FadeUp>

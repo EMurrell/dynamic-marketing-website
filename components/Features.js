@@ -38,7 +38,7 @@ export default function Features() {
                       {feature.name}
                     </h3>
                   </FadeUp>
-                  <div className="flex w-16 mx-auto border-t-2 border-neutral-900"></div>
+                  <div className="flex w-16 mx-auto border-t-2 border-highlight1"></div>
                   <FadeIn>
                     <p className="mt-4 text-lg font-medium text-neutral-900">
                       {feature.description}
